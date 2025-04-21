@@ -1,0 +1,12 @@
+services:
+  signserver:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    container_name: signer_server
+    ports:
+      - "8113:8113"
+    environment:
+      - APP_LOG_LEVEL=info
+      - APP_FILESYSTEM_CERTIFICATESDIR=/app/uploads/
+    restart: unless-stopped

@@ -1,0 +1,21 @@
+# Server
+server:
+  port: "8113"
+  signerroute: "/sign"
+  healthroute: "/health"
+  readtimeout: 30
+  writetimeout: 30
+
+# Internationalization
+locale:
+  defaultlocale: "en"
+  localesdir: "./configs/locales"
+
+# File system
+filesystem:
+  certificatesdir: "./uploads/"
+
+# Logging
+log:
+  level: "info" # For production, use only "Info"
+  format: "text"
