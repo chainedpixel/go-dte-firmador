@@ -84,7 +84,7 @@ go run cmd/signserver/main.go
 
 ## ⚙️ Configuración
 
-La configuración se maneja mediante un archivo `config.yaml` y variables de entorno:
+La configuración se maneja mediante un archivo `config.yaml`:
 
 ```yaml
 # Server
@@ -166,13 +166,7 @@ Proporciona información sobre el estado del servicio, tiempo de ejecución y ve
 
 ## 🔌 Integración con API de Facturación Electrónica
 
-Este servicio de firma es un componente esencial para la emisión de DTEs pero no implementa la lógica completa para facturación electrónica. Si estás buscando una solución integral para facturación electrónica, consulta nuestra [API de Facturación Electrónica para El Salvador](https://github.com/chainedpixel/api-facturacion-sv) que integra este servicio de firma con la funcionalidad completa para emisión, validación y transmisión de documentos tributarios electrónicos según normativa vigente.
-
-## 🔒 Seguridad
-
-- Manejo seguro de claves privadas
-- Validación de certificados
-- Protección contra ataques comunes a APIs
+Este servicio de firma es un componente esencial para la emisión de DTEs pero no implementa la lógica completa para facturación electrónica. Si estás buscando una solución integral para facturación electrónica, consulta mi [API de Facturación Electrónica para El Salvador](https://github.com/chainedpixel/api-facturacion-sv) que integra este servicio de firma con la funcionalidad completa para emisión, validación y transmisión de documentos tributarios electrónicos según normativa vigente.
 
 ## 📚 Documentación
 
